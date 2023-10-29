@@ -24,4 +24,3 @@ int main() {
 		indx2 = indx1;
 	}
 	std::cout << answ;
-}
