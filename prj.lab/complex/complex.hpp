@@ -38,8 +38,6 @@ struct Complex {
 };
 
 
-bool testParse(const std::string& str);
-
 std::ostream& operator<<(std::ostream& out, const Complex& num);
 std::istream& operator>>(std::istream& in, Complex& num);
 
