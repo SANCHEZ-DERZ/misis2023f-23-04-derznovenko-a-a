@@ -1,12 +1,6 @@
-CHECK: 20231205-131341
-OK: file codeforces.id is correct
-ERROR: invalid file name 0339
-ERROR: invalid file name 731a
-ERROR: file prj.test/CMakeLists.txt is absent
-ERROR: file prj.lab/complex/CMakeLists.txt is absent
-ERROR: file prj.lab/rational/CMakeLists.txt is absent
-OK: CMake generator successed
-OK: CMake build (MSVC x64) successed
-STATUS: lab complex - skipped
-STATUS: lab rational - skipped
-STATUS: lab dynarr - skipped
+CHECK: 20231217-144924
+STATUS: lab complex - test-failed
+STATUS: lab complex_io - test-failed
+ERROR: lab rational - test build failed
+ERROR: lab rational_io - test build failed
+ERROR: lab dynarr - test build failed
