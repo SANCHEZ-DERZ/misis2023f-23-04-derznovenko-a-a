@@ -1,9 +1,6 @@
-CHECK: 20231215-193456
-OK: file codeforces.id is correct
-OK: folder prj.codeforces structure is correct
-ERROR: file prj.lab/rational/CMakeLists.txt is absent
-OK: CMake generator successed
-OK: CMake build (MSVC x64) successed
+CHECK: 20231217-144924
 STATUS: lab complex - test-failed
-STATUS: lab rational - skipped
-STATUS: lab dynarr - skipped
+STATUS: lab complex_io - test-failed
+ERROR: lab rational - test build failed
+ERROR: lab rational_io - test build failed
+ERROR: lab dynarr - test build failed
